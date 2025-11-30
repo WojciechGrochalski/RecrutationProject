@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="../Project.Logic/Project.Logic.csproj" />
+  <Project Path="../Project.Repo/Project.Repo.csproj" />
+  <Project Path="../Test/Test.csproj" Id="03797119-f08f-4f5c-9175-d5148c513ea0" />
+  <Project Path="Project.Api.csproj" />
+</Solution>
