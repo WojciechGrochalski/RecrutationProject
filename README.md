@@ -2,6 +2,7 @@
 The project has been containerised into two containers launched from docker-compose. Docker must be installed to run it.
 To launch the project, enter the command docker-compose up --build in the directory with the docker-compose file.
 If the backend container shuts down, restart it. This is a problem with the container starting too slowly with the database.
+Once the containers are running, you can open your browser at http://localhost:5000/swagger/index.html where you can manage the endpoints.
 
 A seed with 3 parking spaces is loaded into the database when the application is launched.
 
