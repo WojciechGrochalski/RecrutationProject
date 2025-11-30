@@ -1,7 +1,6 @@
 ﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Project.Logic.Commands;
-using Project.Logic.Enums;
 using Project.Logic.Interfaces;
 using Project.Logic.Models;
 using Project.Logic.Profiles;

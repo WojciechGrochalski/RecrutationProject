@@ -10,7 +10,7 @@ public class RemoveVehicleFromParkingCommandHandler : IRequestHandler<RemoveVehi
     private readonly ICalculationChargeService _calculationChargeService;
 
     public RemoveVehicleFromParkingCommandHandler(
-        IParkedVehicleRepository parkedVehicleRepository, 
+        IParkedVehicleRepository parkedVehicleRepository,
         IParkingSpaceRepository parkingSpaceRepository,
         ICalculationChargeService calculationChargeService)
     {

@@ -8,7 +8,6 @@ public class AutoMapperProfiles : Profile
 {
     public AutoMapperProfiles()
     {
-        CreateMap<AddVehicleToParkingCommand, ParkedVehicle>();
         CreateMap<ParkedVehicle, AddVehicleToParkingCommandResponse>();
     }
 }

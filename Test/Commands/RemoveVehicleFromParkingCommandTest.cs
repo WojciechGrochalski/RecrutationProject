@@ -5,12 +5,7 @@ using Project.Logic.Enums;
 using Project.Logic.Interfaces;
 using Project.Logic.Models;
 using Project.Logic.Profiles;
-using Project.Repo.Repositories;
-using System;
-using System.Collections.Generic;
 using System.Globalization;
-using System.Text;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Test.Commands;
 

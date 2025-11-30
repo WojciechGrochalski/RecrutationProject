@@ -6,7 +6,7 @@ namespace Project.Repo.Repositories;
 
 public class CalculationChargeService : ICalculationChargeService
 {
-    public  double CalculateVehicleCharge(ParkedVehicle vehicle, DateTime timeOut)
+    public double CalculateVehicleCharge(ParkedVehicle vehicle, DateTime timeOut)
     {
         double charge = GetChargeType(vehicle.Type);
         double minutes = (timeOut - vehicle.TimeIn).TotalMinutes;

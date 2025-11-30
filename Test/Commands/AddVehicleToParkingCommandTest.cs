@@ -4,8 +4,6 @@ using Project.Logic.Commands;
 using Project.Logic.Interfaces;
 using Project.Logic.Models;
 using Project.Logic.Profiles;
-using System;
-using Xunit;
 
 namespace Test.Commands;
 
@@ -52,7 +50,7 @@ public class AddVehicleToParkingCommandTest
     }
 
     [Fact]
-    public async Task Handle_ShouldThrowException_Pass()
+    public async Task Handle_Pass()
     {
         AddVehicleToParkingCommand command = new("reg", 1);
         ParkingSpace space = new()
